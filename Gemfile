@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
+
+# Conditionally include 'wdm' only for Windows platforms
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+
 group :jekyll_plugins do
-    gem 'wdm', '>=0.1.0'
     gem 'classifier-reborn'
     gem 'jekyll'
     gem 'jekyll-archives'
@@ -19,8 +22,8 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
     gem 'listen', '~> 3.2'
-
 end
+
 group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
