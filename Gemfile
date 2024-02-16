@@ -18,7 +18,7 @@ group :jekyll_plugins do
     # gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
-    gem 'listen'
+    gem 'listen', '~> 3.2'
 
 end
 group :other_plugins do
