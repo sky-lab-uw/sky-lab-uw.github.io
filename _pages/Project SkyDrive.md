@@ -118,11 +118,3 @@ Current version: [SkyDrive (v1.0)](https://github.com/sky-lab-uw/Project-SkyDriv
 ---
 <h2 style="text-align: left;">Demos</h2>
 
-<div style="margin: 6px; text-align: center;">
-    <div style="width: 100%; display: inline-block;">
-        <figure>
-            <img src="../../assets/img/SkyDrive/SkyDrivev2_6.gif" alt="demo_1" style="max-width: 100%; height: auto;">
-            <!-- <figcaption style="font-size: 16px; text-align: center; word-wrap: break-word;">Machine Learning and <br> Data Science</figcaption> -->
-        </figure>
-    </div>
-</div>
