@@ -21,6 +21,7 @@ nav_order: 1
     <h3>Sikai (Sky) Chen, Ph.D.</h3>
     <p>Assistant Professor<br>
     Department of Civil and Environmental Engineering<br>
+    Department of Mechanical Engineering (Courtesy)<br>
     University of Wisconsin–Madison<br>
     Office: 2266 Engineering Hall<br>
     Email: <a href="sikai.chen@wisc.edu">sikai.chen@wisc.edu</a></p>
