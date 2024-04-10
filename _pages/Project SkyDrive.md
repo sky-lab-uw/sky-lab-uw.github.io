@@ -19,7 +19,7 @@ nav_order: 7
   <img src="https://img.shields.io/badge/SUMO-Integrated-blue.svg?style=flat-square" alt="SUMO Integrated" />
 </p>
 
-[SkyDrive](https://github.com/sky-lab-uw/Project-SkyDrive) is a multi-agent human-in-the-loop, digital-twin-enabled traffic simulator that integrates CARLA, VR, Websocket, and ROS to create a versatile and formidable research platform. This synergistic integration crafts highly realistic and dynamic settings, enabling comprehensive studies of human behavior, vehicle dynamics, and the intricacies of connected transportation systems. 
+SkyDrive is a multi-agent human-in-the-loop, digital-twin-enabled traffic simulator that integrates CARLA, VR, Websocket, and ROS to create a versatile and formidable research platform. This synergistic integration crafts highly realistic and dynamic settings, enabling comprehensive studies of human behavior, vehicle dynamics, and the intricacies of connected transportation systems. 
 
 A particularly notable aspect of SkyDrive is its innovative multi-agent and human-in-the-loop capabilities, which allows the incorporation of numerous human participants as interactive agents within the simulation environment. This allows for the simulation of complex interactions among a variety of intelligent agents, such as autonomous vehicles (AVs), human-driven vehicles (HVs), and pedestrians. Such functionality offers deep insights into the nuanced interplay of human actions within traffic ecosystems.
 
