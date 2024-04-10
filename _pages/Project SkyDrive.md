@@ -34,7 +34,7 @@ A particularly notable aspect of SkyDrive is its innovative multi-agent and huma
     </div>
 </div>
 
-Current version: [SkyDrive (v1.0)](https://github.com/sky-lab-uw/Project-SkyDrive). Some modules listed below are still under development/improvement.
+Current version: SkyDrive (v1.0). Some modules listed below are still under development/improvement.
 
 
 
