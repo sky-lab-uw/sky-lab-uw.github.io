@@ -108,10 +108,11 @@ nav_order: 1
       <br>
       <p class="mb-0" style="font-size: 13px;">Research Interests: Human-Centered AI, Autonomous Driving, Robotics, Human-Robot Interaction, Intelligent Transportation</p>
       <br>
-      <div class="d-flex align-items-center justify-content-center">
-        <a href="https://scholar.google.com/citations?user=RgO7ppoAAAAJ&hl=zh-CN" class="flex-grow-1"><img src="../assets/img/icon/google-scholar-logo.png" style="object-fit: contain; height: 32px;"/></a>
-        <a href="https://www.linkedin.com/in/zilin-huang/"><img src="../assets/img/icon/LinkedIn-logo.png" style="object-fit: contain; height: 32px;"/></a>
-        <a href="https://github.com/julianwong-source" class="flex-grow-1 text-right"><img src="../assets/img/icon/github-logo.png" style="object-fit: contain; height: 32px;"/></a>
+      <div class="d-flex justify-content-center" style="gap: 30px;">
+        <a href="https://scholar.google.com/citations?user=RgO7ppoAAAAJ&hl=zh-CN"><img src="../assets/img/icon/google-scholar-logo.png" style="object-fit: contain; height: 32px;"/></a>
+        <a href="https://www.linkedin.com/in/zilin-huang-0b5484251/"><img src="../assets/img/icon/LinkedIn-logo.png" style="object-fit: contain; height: 32px;"/></a>
+        <a href="https://github.com/huangzl19"><img src="../assets/img/icon/github-logo.png" style="object-fit: contain; height: 32px;"/></a>
+        <a href="https://www.huang-zilin.com/"><img src="../assets/img/icon/website-logo.png" style="object-fit: contain; height: 32px;"/></a>
       </div>
     </div>
   </div>
@@ -234,37 +235,65 @@ nav_order: 1
       </div>
     </div>
   </div>
-<!-- Lei Shi -->
-  <div class="col-md-4 px-2">   <!-- 页面居中 -->
+<!-- Yuhao Luo -->
+  <div class="col-md-4 px-2">
     <div class="card">
-      {% include figure.html path="assets/img/group-members/group_leishi.jpg" title="Image 1" class="card-img-top" %}
-      <div class="card-body text-center pt-2 pb-2"> <!-- 修改了这一行，将上下padding设为较小的值 -->
-      <!-- 其中，pt-2表示padding-top设为2px，pb-2表示padding-bottom设为1px -->
-        <p class="mb-0" style="color: #0077be; font-weight: bold; font-size: 16px;">Lei Shi</p>
+      {% include figure.html path="assets/img/group-members/group_yuhao.jpg" title="Image 1" class="card-img-top" %}
+      <div class="card-body text-center pt-2 pb-2">
+        <p class="mb-0" style="color: #0077be; font-weight: bold;">Yuhao Luo</p>
         <p class="mb-0" style="font-size: 14px;">Research Assistant</p>
-        <p class="mb-0" style="font-size: 14px;">Fall 2023 - present</p>
-        <p class="mb-0" style="font-size: 14px;">Email: <a href="lshi222@wisc.edu">lshi222@wisc.edu</a></p> 
-        <p class="mb-0" style="font-size: 14px;">M.S., Johns Hopkins University, 2022</p> 
-        <p class="mb-0" style="font-size: 14px;">B.E., Shandong University, 2020</p> 
+        <p class="mb-0" style="font-size: 14px;">Fall 2025 - present</p>
+        <p class="mb-0" style="font-size: 13px;">Email: <a href="yluo955@connect.hkust-gz.edu.cn">yluo955@connect.hkust-gz.edu.cn</a></p>
+        <p class="mb-0" style="font-size: 13px;">M.S., The Hong Kong University of Science and Technology (GZ), 2025</p>
+        <p class="mb-0" style="font-size: 13px;">B.E., Wuhan University of Technology, 2023</p>
         <br>
-        <div style="margin-top: 20px;"> <!-- 您可以自由调整这里的数值来达到您想要的间距 -->
+        <div style="margin-top: 1px;"> <!-- 可以调整这个数值来控制间距 -->
         </div>
-        <p class="mb-0" style="font-size: 13px;">Research Interests: Autonomous Driving, Robotics, Machine Learning</p>
-        <div style="margin-top: 21px;"> <!-- 您可以自由调整这里的数值来达到您想要的间距 -->
+        <p class="mb-0" style="font-size: 13px;">Research Interests: Autonomous Driving, Uncertainty Quantification, Spatial-temporal data mining, and driving behavior modelling</p>
+        <div style="margin-top: 6px;"> <!-- 调整了间距 -->
+          <div class="d-flex justify-content-center">
+            <div class="mx-2">
+              <a href="https://scholar.google.com.hk/citations?user=CNdSjWAAAAAJ&hl=zh-CN"><img src="../assets/img/icon/google-scholar-logo.png" style="object-fit: contain; height: 32px;"/></a>
+            </div>
+            <div class="mx-2">
+              <a href="https://www.linkedin.com/in/yuhao-luo-3a9949301/"><img src="../assets/img/icon/LinkedIn-logo.png" style="object-fit: contain; height: 32px;"/></a>
+            </div>
+          </div>
         </div>
-        <div class="d-flex justify-content-center">
-          <div class="mx-2">   <!-- 三个图标的话删除这一行代码 -->
-            <a href="https://www.linkedin.com/in/lei-shi-45264b188/"><img src="../assets/img/icon/LinkedIn-logo.png" style="object-fit: contain; height: 32px;"/></a>
-          </div>   <!-- 三个图标的话删除这一行代码 -->
-          <div class="mx-2">    <!-- 三个图标的话删除这一行代码 -->
-            <a href="https://leishi23.github.io/homepage/"><img src="../assets/img/icon/website-logo.png" style="object-fit: contain; height: 32px;"/></a>
-          </div>    <!-- 三个图标的话删除这一行代码 -->
-        </div>      
       </div>
     </div>
   </div>
 </div>
-<br> 
+<br>
+
+<h3 style="text-align: left;"><strong> Undergraduate Researchers</strong></h3>
+
+<div class="row mb-3">
+  <!-- Boyue Wang -->
+  <div class="col-md-4 px-2">
+    <div class="card h-100">
+      {% include figure.html path="assets/img/group-members/group_boyue.jpg" title="Image 1" class="card-img-top" %}
+      <div class="card-body text-center pt-2 pb-2">
+        <p class="mb-0" style="color: #0077be; font-weight: bold; font-size: 16px;">Boyue Wang</p>
+        <p class="mb-0" style="font-size: 14px;">Undergraduate Researcher</p>
+        <p class="mb-0" style="font-size: 14px;">Fall 2024 - present</p>
+        <p class="mb-0" style="font-size: 14px;">Email: <a href="bwang367@wisc.edu">bwang367@wisc.edu</a></p>
+        <p class="mb-0" style="font-size: 14px;">B.E., University of Wisconsin-Madison</p>
+        <br>
+        <div style="margin-top: 20px;"> <!-- 可以调整这个数值来控制间距 -->
+        </div>
+        <p class="mb-0" style="font-size: 13px;">Research Interests: Autonomous Driving Simulation, Intelligent Transportation</p>
+        <br>
+        <div class="d-flex justify-content-center">
+          <div class="mx-2">
+            <a href="https://scholar.google.com/citations?user=CR7HWjcAAAAJ&hl=zh-CN"><img src="../assets/img/icon/google-scholar-logo.png" style="object-fit: contain; height: 32px;"/></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 ---
 <!-- 使用<strong>标签来将Affiliates加粗 -->
@@ -308,9 +337,9 @@ nav_order: 1
         <br>
         <p class="mb-0" style="font-size: 13px;">Research Interests: AI-based control for CAVs, Machine learning for autonomous driving, Connected infrastructure system</p>
       <!-- <br> -->
-      <div style="margin-top: 43px;"> <!-- 您可以自由调整这里的数值来达到您想要的间距 -->
+      <div style="margin-top: 43px;"> <!-- ��可以自由调整这里的数值来达到您想要的间距 -->
         </div>
-      <div class="d-flex align-items-center justify-content-center">
+      <div class="d-flex align-items-center justify-content-center ">  
         <a href="https://scholar.google.com/citations?user=UJ1SNjYAAAAJ&hl=en" class="flex-grow-1"><img src="../assets/img/icon/google-scholar-logo.png" style="object-fit: contain; height: 32px;"/></a>
         <a href="https://www.linkedin.com/in/jiqian-dong-81b3a1148/" class="flex-grow-1"><img src="../assets/img/icon/LinkedIn-logo.png" style="object-fit: contain; height: 32px;"/></a>
         <a href="https://github.com/JiqianDong" class="flex-grow-1"><img src="../assets/img/icon/github-logo.png" style="object-fit: contain; height: 32px;"/></a>
@@ -426,28 +455,66 @@ nav_order: 1
 </div>
 
 <br>
-<div class="row mb-3">  <!-- 可以把间距缩小一点 -->
- <div class="col-md-4 px-2">   <!-- 页面居中 -->
-<div class="card">
+<div class="row mb-3">
+  <!-- Penglin Song -->
+  <div class="col-md-4 px-2">
+    <div class="card h-100">
       {% include figure.html path="assets/img/group-members/group_penglin.jpg" title="Image 1" class="card-img-top" %}
-      <div class="card-body text-center pt-2 pb-2"> <!-- 修改了这一行，将上下padding设为较小的值 -->
-      <!-- 其中，pt-2表示padding-top设为2px，pb-2表示padding-bottom设为1px -->
+      <div class="card-body text-center pt-2 pb-2">
         <p class="mb-0" style="color: #0077be; font-weight: bold; font-size: 16px;">Penglin Song</p>
         <p class="mb-0" style="font-size: 14px;">Visiting Ph.D. Student</p> 
         <p class="mb-0" style="font-size: 14px;">Spring 2023 - present</p> 
         <p class="mb-0" style="font-size: 14px;">(The Hong Kong Polytechnic University)</p>
         <p class="mb-0" style="font-size: 12px;">Email: <a href="peng-lin.song@connect.polyu.hk">peng-lin.song@connect.polyu.hk</a></p>
         <br>
+        <div style="margin-top: 24px;"> <!-- 可以调整这个数值来控制间距 -->
+        </div>
         <p class="mb-0" style="font-size: 13px;">Research Interests: Proactive safety, Econometric methods application, Surrogate safety measures</p>
         <br>
         <div class="d-flex justify-content-center">
-          <div class="mx-2">   <!-- 三个图标的话删除这一行代码 -->
+          <div class="mx-2">
             <a href="https://scholar.google.com/citations?user=ciyI3J0AAAAJ&hl=zh-CN&oi=ao"><img src="../assets/img/icon/google-scholar-logo.png" style="object-fit: contain; height: 32px;"/></a>
-          </div>   <!-- 三个图标的话删除这一行代码 -->
-          <div class="mx-2">    <!-- 三个图标的话删除这一行代码 -->
+          </div>
+          <div class="mx-2">
             <a href="https://www.linkedin.com/in/penglin-song-47a621107/"><img src="../assets/img/icon/LinkedIn-logo.png" style="object-fit: contain; height: 32px;"/></a>
-          </div>    <!-- 三个图标的话删除这一行代码 -->
-        </div>      
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Qichao Liu -->
+  <div class="col-md-4 px-2">
+    <div class="card h-100">
+      {% include figure.html path="assets/img/group-members/group_qichao.jpg" title="Image 1" class="card-img-top" %}
+      <div class="card-body text-center pt-2 pb-2">
+        <p class="mb-0" style="color: #0077be; font-weight: bold; font-size: 16px;">Qichao Liu</p>
+        <p class="mb-0" style="font-size: 14px;">Visiting Ph.D. Student</p>
+        <p class="mb-0" style="font-size: 14px;">Spring 2024 - present</p>
+        <p class="mb-0" style="font-size: 14px;">(Southeast University)</p>
+        <p class="mb-0" style="font-size: 14px;">Email: <a href="qliu426@wisc.edu">qliu426@wisc.edu</a></p>
+        <br>
+        <div style="margin-top: 20px;"> <!-- 可以调整这个数值来控制间距 -->
+        </div>
+        <p class="mb-0" style="font-size: 13px;">Research Interests: Automated Vehicles, Optimal Control, Optimization, Distributed Control</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Yansong Qu -->
+  <div class="col-md-4 px-2">
+    <div class="card h-100">
+      {% include figure.html path="assets/img/group-members/group_yansong.jpg" title="Image 1" class="card-img-top" %}
+      <div class="card-body text-center pt-2 pb-2">
+        <p class="mb-0" style="color: #0077be; font-weight: bold; font-size: 16px;">Yansong Qu</p>
+        <p class="mb-0" style="font-size: 14px;">Teaching Assistant</p>
+        <p class="mb-0" style="font-size: 14px;">Fall 2024 - present</p>
+        <p class="mb-0" style="font-size: 14px;">(Purdue University, co-advise with Prof. Samuel Labi)</p>
+        <p class="mb-0" style="font-size: 14px;">Email: <a href="qu120@purdue.edu">qu120@purdue.edu</a></p>
+        <br>
+        <div style="margin-top: 0px;"> <!-- 可以调整这个数值来控制间距 -->
+        </div>
+        <p class="mb-0" style="font-size: 13px;">Research Interests: Autonomous Driving Simulation, Human-Centered AI, Control, Intelligent Transportation</p>
       </div>
     </div>
   </div>
