@@ -4,7 +4,7 @@ layout: about
 title: About
 permalink: /
 description:    
-subtitle: <img src="assets/img/sky-lab-logo-red.jpg" width = "300" height = "200" align=right /> <b><font size=5> Sikai Chen</font><b> <p>Assistant Professor <br> Department of Civil and Environmental Engineering <br> Department of Mechanical Engineering (Courtesy) <br> University of Wisconsin-Madison <br> Office:&nbsp;Engineering Hall 2266 <br> Email:&nbsp;<a href="sikai.chen@wisc.edu">sikai.chen@wisc.edu</a> <br> <a href="https://scholar.google.com/citations?user=DPN2wc4AAAAJ&hl=zh-CN&oi=ao" target="_blank"> <img src="assets/img/icon/google-scholar-logo.png" alt="Google Scholar" width="32" height="32"/> </a> &nbsp; <a href="https://www.linkedin.com/in/sikai-chen-14920860/"> <img src="assets/img/icon/LinkedIn-logo.png" width="32" height="32"/></a> </p>
+subtitle: <img src="assets/img/sky-lab-logo-red.jpg" width = "300" height = "200" align=right /> <b><font size=5> Sikai Chen</font><b> <p>Assistant Professor <br> Department of Civil and Environmental Engineering <br> Department of Mechanical Engineering (Courtesy) <br> University of Wisconsin-Madison <br> Office:&nbsp;Engineering Hall 2266 <br> Email:&nbsp;<a href="sikai.chen@wisc.edu">sikai.chen@wisc.edu</a> <br> <br> <a href="https://scholar.google.com/citations?user=DPN2wc4AAAAJ&hl=zh-CN&oi=ao" target="_blank"> <img src="assets/img/icon/google-scholar-logo.png" alt="Google Scholar" width="32" height="32"/> </a> &nbsp; <a href="https://www.linkedin.com/in/sikai-chen-14920860/"> <img src="assets/img/icon/LinkedIn-logo.png" width="32" height="32"/></a> </p>
 # 一个空格都不能留这里，也不能换行
 
 
