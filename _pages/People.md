@@ -65,7 +65,7 @@ nav_order: 1
         <p class="mb-0" style="font-size: 14px;">Spring 2023 - present</p>
         <p class="mb-0" style="font-size: 14px;">Email: <a href="cma97@wisc.edu">cma97@wisc.edu</a></p> 
         <p class="mb-0" style="font-size: 14px;">(Co-advise with Prof. Xiaopeng Li)</p>
-        <p class="mb-0" style="font-size: 14px;">Ph.D., Tongji University, 2023</p> 
+        <p class="mb-0" style="font-size: 14px;">Ph.D., Tongji University, 2023</p> 
         <p class="mb-0" style="font-size: 14px;">B.E., Tongji University, 2017</p>
         <br>
         <p class="mb-0" style="font-size: 13px;">Research Interests: Urban Traffic Control, Traffic Data Analysis</p>
@@ -266,6 +266,34 @@ nav_order: 1
 </div>
 <br>
 
+<!-- Zhengyang Wan -->
+<div class="row mb-3">
+  <div class="col-md-4 px-2">
+    <div class="card">
+      {% include figure.html path="assets/img/group-members/group_zhengyang_wan.jpg" title="Image 1" class="card-img-top" %}
+      <div class="card-body text-center pt-2 pb-2">
+        <p class="mb-0" style="color: #0077be; font-weight: bold;">Zhengyang Wan</p>
+        <p class="mb-0" style="font-size: 14px;">Research Assistant</p>
+        <p class="mb-0" style="font-size: 14px;">Fall 2025 - present</p>
+        <p class="mb-0" style="font-size: 14px;">Email: <a href="2233474@tongji.edu.cn">2233474@tongji.edu.cn</a></p>
+        <p class="mb-0" style="font-size: 14px;">M.S., Tongji University, 2025</p>
+        <p class="mb-0" style="font-size: 14px;">B.E., Tongji University, 2022</p>
+        <br>
+        <p class="mb-0" style="font-size: 13px;">Research Interests: Autonomous Driving, Vehicle Control, Human-Centered AI, Intelligent Transportation</p>
+        <br>
+        <div class="d-flex justify-content-center">
+          <div class="mx-2">
+            <a href="https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"><img src="../assets/img/icon/google-scholar-logo.png" style="object-fit: contain; height: 32px;"/></a>
+          </div>
+          <div class="mx-2">
+            <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_PROFILE"><img src="../assets/img/icon/LinkedIn-logo.png" style="object-fit: contain; height: 32px;"/></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <h3 style="text-align: left;"><strong> Undergraduate Researchers</strong></h3>
 
 <div class="row mb-3">
@@ -337,7 +365,7 @@ nav_order: 1
         <br>
         <p class="mb-0" style="font-size: 13px;">Research Interests: AI-based control for CAVs, Machine learning for autonomous driving, Connected infrastructure system</p>
       <!-- <br> -->
-      <div style="margin-top: 43px;"> <!-- ��可以自由调整这里的数值来达到您想要的间距 -->
+      <div style="margin-top: 43px;"> <!-- 可以自由调整这里的数值来达到您想要的间距 -->
         </div>
       <div class="d-flex align-items-center justify-content-center ">  
         <a href="https://scholar.google.com/citations?user=UJ1SNjYAAAAJ&hl=en" class="flex-grow-1"><img src="../assets/img/icon/google-scholar-logo.png" style="object-fit: contain; height: 32px;"/></a>
