@@ -29,24 +29,24 @@ nav_order: 1
 <p style="text-align: left;">Sky-Lab has an electric connected and autonomous van, a Ford E-Transit retrofitted with a drive-by-wire system, sensors, onboard units, 5G connectivity for remote control and data sharing, and a high-performance computer (e.g., 3 LiDARs， 7 cameras，radars, NETGEAR Nighthawk M6 Pro 5G mobile hotspot, etc.). Sky-Lab also has several sets of portable roadside units and traffic signals, which can be used to form an array of customizable traffic control systems at an intersection or along a corridor. This vehicle and equipment together serve as Cyber-Physical Systems (CPS) testbeds for developing and testing advanced technologies, such as vehicle-to-everything (V2X) and vehicle-to-infrastructure (V2I) communication, sensor fusion, autonomous driving algorithms, AR/VR-enabled digital twin platforms, and foundation AI model deployment. <br> <br> Sky-Lab hosts high-performance Lambda Servers, which feature multiple Nvidia GPUs, including A6000, RTX 4090, and 4080. We are also deeply grateful to Nvidia, which has donated two RTX PRO 6000 Blackwell GPUs and 20,000 GPU hours on A100 clusters to the lab.</p>
 
 <div style="display:flex; flex-wrap:nowrap; justify-content:center; align-items:center; gap: 0; margin: 7px 0;">
-  <img src="../../assets/img/Research/AV1p.png" alt="AV1" style="height: 350px; object-fit: contain;">
-  <img src="../../assets/img/Research/AV2p.png" alt="AV2" style="height: 350px; object-fit: contain;">
+  <img src="../../assets/img/Research/AV1.png" alt="AV1" style="height: 350px; object-fit: contain;">
+  <img src="../../assets/img/Research/AV2.png" alt="AV2" style="height: 350px; object-fit: contain;">
   <!-- <img src="../../assets/img/Research/AV3.jpg" alt="AV3" style="height: 200px; object-fit: contain;"> -->
-  <img src="../../assets/img/Research/AV4p.png" alt="AV4" style="height: 350px; object-fit: contain;">
+  <img src="../../assets/img/Research/AV4.png" alt="AV4" style="height: 350px; object-fit: contain;">
   <img src="../../assets/img/Research/AV5.jpg" alt="AV5" style="height: 350px; object-fit: contain;">
 </div>
 
 <div style="display:flex; justify-content:center; align-items:flex-start; gap: 7px; margin: 15px 0;">
   <div style="text-align: center;">
     <video width="auto" height="400" controls preload="metadata">
-      <source src="{{ '/assets/img/Research/run175-720p.mp4' | relative_url }}" type="video/mp4">
+      <source src="{{ '/assets/img/Research/run175_360p.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <p style="margin-top: 10px; font-size: 14px;">Live demo at 2025 AAA Safe Mobility Conference, Madison, WI</p>
   </div>
   <div style="text-align: center;">
     <video width="auto" height="400" controls preload="metadata">
-      <source src="{{ '/assets/img/Research/AV_video.mp4' | relative_url }}" type="video/mp4">
+      <source src="{{ '/assets/img/Research/av_video.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <p style="margin-top: 10px; font-size: 14px;">End-to-end autonomous driving in urban and rural environments</p>
