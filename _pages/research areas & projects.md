@@ -46,7 +46,7 @@ nav_order: 1
   </div>
   <div style="text-align: center;">
     <video width="auto" height="400" controls preload="metadata">
-      <source src="{{ '/assets/img/Research/av_video.mp4' | relative_url }}" type="video/mp4">
+      <source src="{{ '/assets/img/Research/end-to-end.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <p style="margin-top: 10px; font-size: 14px;">End-to-end autonomous driving in urban and rural environments</p>
