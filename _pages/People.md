@@ -4,7 +4,7 @@ permalink: /people/
 title: People 
 description: 
 nav: true
-nav_order: 1
+nav_order: 2
 ---
 
 <h2 style="font-size: 36px; font-weight: bold; text-decoration: none; text-align: left;">Lab Director</h2>
