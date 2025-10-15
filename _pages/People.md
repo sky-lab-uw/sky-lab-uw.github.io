@@ -101,7 +101,7 @@ nav_order: 2
       <!-- <div class="card-body text-center pt-2 pb-2" style="height: 345px; overflow: auto;"> 添加固定高度和溢出属性 -->
         <p class="mb-0" style="color: #0077be; font-weight: bold;">Keke Long</p>
         <p class="mb-0" style="font-size: 14px;">Research Associate</p>
-        <p class="mb-0" style="font-size: 14px;">Spring 2023 - present</p>
+        <p class="mb-0" style="font-size: 14px;">Spring 2025 - present</p>
         <p class="mb-0" style="font-size: 14px;">Email: <a href="klong23@wisc.edu">klong23@wisc.edu</a></p> 
         <p class="mb-0" style="font-size: 14px;">(Co-advise with Prof. Xiaopeng Li)</p>
         <p class="mb-0" style="font-size: 14px;">Ph.D., University of Wisconsin-Madison, 2024</p>
