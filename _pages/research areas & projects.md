@@ -63,7 +63,7 @@ nav_order: 1
 <div style="display:flex; justify-content:center; align-items:flex-start; gap: 7px; margin: 15px 0;">
   <div style="text-align: center;">
     <video width="auto" height="370" controls preload="metadata">
-      <source src="{{ '/assets/img/Research/remote_sky.mp4' | relative_url }}" type="video/mp4">
+      <source src="{{ '/assets/img/Research/sky-remote-driving-1min.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <p style="margin-top: 10px; font-size: 14px; margin-top: 3px;">Remote driving from the office. The van can be seen passing the window on the right at 0:02 and 0:42.</p>
