@@ -20,21 +20,75 @@ class="img-fluid": 这是一个Bootstrap类，用于使图像在不同屏幕尺�
 src="../../assets/img/news-photo/2020_course_ce597.png": src 属性定义了图像的来源。在这里，它指向一个相对路径，表示图像文件位于当前文件所在目录的上两级目录中的 assets/img/news-photo 文件夹内，文件名为 2020_course_ce597.png。
 style="width: 400px; height: 300px; margin-right: 20px;": 这是一个内联样式，用于设置图像的宽度、高度和右边距。在这里，宽度设置为400像素，高度设置为300像素，右边距设置为20像素。 -->
 
+
+<!-- Responsive design for the third course -->
+<div class="container" style="border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+  <div class="row">
+    <div class="col-12 col-md-6">
+      <img class="img-fluid" src="../../assets/img/teaching/CEE_679_1.jpg" style="width: 400px; height: 250px; margin-right: 20px;">
+    </div>
+    <div class="col-12 col-md-6">
+      <h6><strong>CEE 679: AI and Data Science in Transportation <br>(new course developed at UW-Madison)</strong></h6>
+      <h6>Location</h6>
+      <ul>
+        <li style="font-size: 0.9em;">University of Wisconsin–Madison</li>
+      </ul>
+      <h6>Semesters</h6>
+      <ul>
+        <li style="font-size: 0.9em;">Fall, 2023; Fall, 2024</li>
+      </ul>
+      <h6>Instructor</h6>
+      <ul>
+        <li style="font-size: 0.9em;">Dr. Sikai Chen</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<!-- Responsive design for the fourth course -->
+<div class="container" style="border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+  <div class="row">
+    <div class="col-12 col-md-6">
+      <img class="img-fluid" src="../../assets/img/teaching/CEE_370.jpg" style="width: 400px; height: 250px; margin-right: 20px;">
+    </div>
+    <div class="col-12 col-md-6">
+      <h6><strong>CEE 370: Transportation Engineering</strong></h6>
+      <h6>Location</h6>
+      <ul>
+        <li style="font-size: 0.9em;">University of Wisconsin–Madison</li>
+      </ul>
+      <h6>Semesters</h6>
+      <ul>
+        <li style="font-size: 0.9em;">Fall, 2022; Spring 2023; Spring 2024; Spring 2025</li>
+      </ul>
+      <h6>Instructor</h6>
+      <ul>
+        <li style="font-size: 0.9em;">Dr. Sikai Chen</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+
 <!-- Responsive design for the first course -->
 <div class="container" style="border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
   <div class="row">
     <div class="col-12 col-md-6">
-      <img class="img-fluid" src="../../assets/img/news-photo/2020_course_ce597_2.png" style="width: 400px; height: 250px; margin-right: 20px;">
+      <img class="img-fluid" src="../../assets/img/teaching/2020_course_ce597.png" style="width: 400px; height: 250px; margin-right: 20px;">
     </div>
     <div class="col-12 col-md-6">
-      <h6><strong>CE 597: Machine Learning and Artificial Intelligence for Autonomous Vehicle Operations II</strong></h6>
+      <h6><strong>CE 597: Machine Learning and Artificial Intelligence for Autonomous Vehicle Operations II <br>(new course developed at Purdue)</strong></h6>
       <h6>Location</h6>
       <ul>
         <li style="font-size: 0.9em;">Purdue University - West Lafayette</li>
       </ul>
       <h6>Semesters</h6>
       <ul>
-        <li style="font-size: 0.9em;">Fall, 2020</li>
+        <li style="font-size: 0.9em;">Fall, 2020; Fall 2021</li>
       </ul>
       <h6>Instructor</h6>
       <ul>
@@ -50,18 +104,17 @@ style="width: 400px; height: 300px; margin-right: 20px;": 这是一个内联样�
 <div class="container" style="border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
   <div class="row">
     <div class="col-12 col-md-6">
-      <img class="img-fluid" src="../../assets/img/news-photo/2020_course_ce597.png" style="width: 400px; height: 250px; margin-right: 20px;">
+      <img class="img-fluid" src="../../assets/img/teaching/2021_course_ce597.png" style="width: 400px; height: 250px; margin-right: 20px;">
     </div>
     <div class="col-12 col-md-6">
-      <h6><strong>CE 597: Machine Learning and Artificial Intelligence for Autonomous Vehicle Operations</strong></h6>
+      <h6><strong>CE 597: Machine Learning and Artificial Intelligence for Autonomous Vehicle Operations <br>(new course developed at Purdue)</strong></h6>
       <h6>Location</h6>
       <ul>
         <li style="font-size: 0.9em;">Purdue University - West Lafayette</li>
       </ul>
       <h6>Semesters</h6>
       <ul>
-        <li style="font-size: 0.9em;">Spring, 2020</li>
-        <li style="font-size: 0.9em;">Spring, 2021</li>
+        <li style="font-size: 0.9em;">Spring, 2020; Spring, 2021</li>
       </ul>
       <h6>Instructor</h6>
       <ul>
@@ -70,4 +123,6 @@ style="width: 400px; height: 300px; margin-right: 20px;": 这是一个内联样�
     </div>
    </div>
 </div>
+
+<br>
 

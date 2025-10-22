@@ -14,7 +14,7 @@ nav_order: 2
 <!-- **<center> <font size=6> Lab Director </font> </center>** -->
 
 <div class="row">
-  <div class="col-md-4">
+  <div class="col-md-3" style="max-width: 320px;">
     {% include figure.html path="assets/img/chen_sikai.png" title="Image" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-md-8">
@@ -31,7 +31,7 @@ nav_order: 2
     University of Wisconsin-Madison<br>
     <br>
     Office: Engineering Hall 2266<br>
-    Email: <a href="sikai.chen@wisc.edu">sikai.chen@wisc.edu</a></p>
+    Email: <a href="mailto:sikai.chen@wisc.edu">sikai.chen@wisc.edu</a></p>
     <div class="mt-3">
       <a href="https://scholar.google.com/citations?user=DPN2wc4AAAAJ&hl=zh-CN&oi=ao" target="_blank"> <img src="../assets/img/icon/google-scholar-logo.png" alt="Google Scholar" width="32" height="32"/> </a>
       &nbsp;
@@ -39,8 +39,8 @@ nav_order: 2
     </div>
   </div>
 </div>
-
-   <h5>Education:</h5>
+   <!-- <h2>Education:</h2> -->
+   <p style="font-size: 17px; margin-bottom: 4px;">Education:</p>
 <ul>
   <li>Ph.D., Civil Engineering / Computational Science & Engineering, Purdue University, 2019</li>
   <li>M.S., Transportation Engineering, University of Southern California, 2014</li>
@@ -62,16 +62,20 @@ nav_order: 2
 <!-- 两个小图标的模板 -->
 <div class="row mb-3">  <!-- 可以把间距缩小一点 -->
 <!-- <div class="row mb-3 justify-content-center">  将间距缩小一点并且页面居中 -->
-  <!-- <div class="col-md-4 px-2 mx-auto">   页面居中 -->
-    <div class="col-md-4 px-2">
+  <!-- <div class="col-md-3 px-2 mx-auto">   页面居中 -->
+    <div class="col-md-3 px-2">
     <div class="card">
-      {% include figure.html path="assets/img/group-members/group_chengyuan.jpg" title="Image 1" class="card-img-top" %}
+      <figure>
+        <div style="width: 100%; padding-top: 100%; position: relative; overflow: hidden;">
+          <img src="../assets/img/group-members/group_chengyuan.jpg" alt="Chengyuan Ma" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;" class="card-img-top img-fluid rounded z-depth-1">
+        </div>
+      </figure>
       <div class="card-body text-center pt-2 pb-2"> <!-- 修改了这一行，将上下padding设为较小的值 -->
         <!-- 其中，pt-2表示padding-top设为2px，pb-2表示padding-bottom设为1px -->
         <p class="mb-0" style="color: #0077be; font-weight: bold; font-size: 16px;">Chengyuan Ma</p>
         <p class="mb-0" style="font-size: 14px;">Research Associate</p>
         <p class="mb-0" style="font-size: 14px;">Spring 2023 - present</p>
-        <p class="mb-0" style="font-size: 14px;">Email: <a href="cma97@wisc.edu">cma97@wisc.edu</a></p> 
+        <p class="mb-0" style="font-size: 14px;">Email: <a href="mailto:cma97@wisc.edu">cma97@wisc.edu</a></p> 
         <p class="mb-0" style="font-size: 14px;">(Co-advise with Prof. Xiaopeng Li)</p>
         <p class="mb-0" style="font-size: 14px;">Ph.D., Tongji University, 2023</p> 
         <p class="mb-0" style="font-size: 14px;">B.E., Tongji University, 2017</p>
@@ -92,7 +96,7 @@ nav_order: 2
   </div>
 
 <!-- Keke Long -->
-  <div class="col-md-4 px-2">
+  <div class="col-md-3 px-2">
     <div class="card">
       {% include figure.html path="assets/img/group-members/group_keke.jpg" title="Image 1" class="card-img-top" %}
       <div class="card-body text-center pt-2 pb-2"> 
@@ -102,7 +106,7 @@ nav_order: 2
         <p class="mb-0" style="color: #0077be; font-weight: bold;">Keke Long</p>
         <p class="mb-0" style="font-size: 14px;">Research Associate</p>
         <p class="mb-0" style="font-size: 14px;">Spring 2025 - present</p>
-        <p class="mb-0" style="font-size: 14px;">Email: <a href="klong23@wisc.edu">klong23@wisc.edu</a></p> 
+        <p class="mb-0" style="font-size: 14px;">Email: <a href="mailto:klong23@wisc.edu">klong23@wisc.edu</a></p> 
         <p class="mb-0" style="font-size: 14px;">(Co-advise with Prof. Xiaopeng Li)</p>
         <p class="mb-0" style="font-size: 14px;">Ph.D., University of Wisconsin-Madison, 2024</p>
         <p class="mb-0" style="font-size: 14px;">M.S., Tongji University, 2021</p> 
@@ -137,7 +141,7 @@ nav_order: 2
 <!-- 正方形头像 -->
 <div class="row mb-3">
 <!-- Zilin Huang -->
- <div class="col-md-4 px-2">   <!-- px-2可以把card间距变大一点 -->
+ <div class="col-md-3 px-2">   <!-- px-2可以把card间距变大一点 -->
   <div class="card">
     {% include figure.html path="assets/img/group-members/group_zilin.jpg" title="Image 1" class="card-img-top" %}
       <div class="card-body text-center pt-2 pb-2"> <!-- 修改了这一行，将上下padding设为较小的值 -->
@@ -145,10 +149,10 @@ nav_order: 2
       <p class="mb-0" style="color: #0077be; font-weight: bold;">Zilin Huang</p>
       <p class="mb-0" style="font-size: 14px;">Research Assistant</p> 
       <p class="mb-0" style="font-size: 14px;">Fall 2022 - present</p>
-      <p class="mb-0" style="font-size: 14px;">Email: <a href="zilin.huang@wisc.edu">zilin.huang@wisc.edu</a></p>
+      <p class="mb-0" style="font-size: 14px;">Email: <a href="mailto:zilin.huang@wisc.edu">zilin.huang@wisc.edu</a></p>
       <p class="mb-0" style="font-size: 14px;">M.S., South China University of Technology, 2021</p> 
       <p class="mb-0" style="font-size: 14px;">B.E., Guangdong University of Technology, 2018</p> 
-      <br>
+      <!-- <br> -->
       <p class="mb-0" style="font-size: 13px;">Research Interests: Human-Centered AI, Autonomous Driving, Robotics, Human-Robot Interaction, Intelligent Transportation</p>
       <br>
       <div class="d-flex justify-content-center" style="gap: 30px;">
@@ -161,7 +165,7 @@ nav_order: 2
   </div>
 </div>
 <!-- Zihao Sheng -->
-  <div class="col-md-4 px-2">
+  <div class="col-md-3 px-2">
     <div class="card">
       {% include figure.html path="assets/img/group-members/group_zihao_2.jpg" title="Image 1" class="card-img-top" %}
       <div class="card-body text-center pt-2 pb-2"> <!-- 修改了这一行，将上下padding设为较小的值 -->
@@ -169,12 +173,11 @@ nav_order: 2
         <p class="mb-0" style="color: #0077be; font-weight: bold;">Zihao Sheng</p>
         <p class="mb-0" style="font-size: 14px;">Research Assistant</p> 
         <p class="mb-0" style="font-size: 14px;">Spring 2023 - present</p>
-        <p class="mb-0" style="font-size: 14px;">Email: <a href="zihao.sheng@wisc.edu">zihao.sheng@wisc.edu</a></p>
+        <p class="mb-0" style="font-size: 14px;">Email: <a href="mailto:zihao.sheng@wisc.edu">zihao.sheng@wisc.edu</a></p>
         <p class="mb-0" style="font-size: 14px;">M.S., Shanghai Jiao Tong University, 2022</p> 
         <p class="mb-0" style="font-size: 14px;">B.E., Xi'an Jiaotong University, 2019</p> 
         <br>
-        <div style="margin-top: 21px;"> <!-- 您可以自由调整这里的数值来达到您想要的间距 -->
-        </div>
+        <!-- <div style="margin-top: 21px;"> 您可以自由调整这里的数值来达到您想要的间距  </div> -->
         <p class="mb-0" style="font-size: 13px;">Research Interests: Human-Centered AI, Autonomous Driving, Robotics, Physics, Intelligent Transportation</p>
         <br>
         <div class="d-flex justify-content-center">
@@ -191,7 +194,7 @@ nav_order: 2
 
 
 <!-- Zheng Li -->
-  <div class="col-md-4 px-2">   <!-- 页面居中 -->
+  <div class="col-md-3 px-2">   <!-- 页面居中 -->
     <div class="card">
       {% include figure.html path="assets/img/group-members/group_zhengli.jpg" title="Image 1" class="card-img-top" %}
       <div class="card-body text-center pt-2 pb-2"> <!-- 修改了这一行，将上下padding设为较小的值 -->
@@ -199,12 +202,12 @@ nav_order: 2
         <p class="mb-0" style="color: #0077be; font-weight: bold; font-size: 16px;">Zheng Li</p>
         <p class="mb-0" style="font-size: 14px;">Research Assistant</p>
         <p class="mb-0" style="font-size: 14px;">Fall 2023 - present</p>
-        <p class="mb-0" style="font-size: 14px;">Email: <a href="zli2674@wisc.edu">zli2674@wisc.edu</a></p> 
+        <p class="mb-0" style="font-size: 14px;">Email: <a href="mailto:zli2674@wisc.edu">zli2674@wisc.edu</a></p> 
         <p class="mb-0" style="font-size: 14px;">(Co-advise with Prof. Xiaopeng Li)</p>
         <p class="mb-0" style="font-size: 14px;">M.S., Tongji University, 2023</p> 
         <p class="mb-0" style="font-size: 14px;">B.E., Hunan University, 2020</p> 
         <br>
-        <br>
+        <!-- <br> -->
         <p class="mb-0" style="font-size: 13px;">Research Interests: Autonomous Driving Safety Validation, Intelligent Transportation</p>
         <br>
         <div class="d-flex justify-content-center">
@@ -219,16 +222,8 @@ nav_order: 2
     </div>
   </div>
 
-
-
-</div>
-
-
-
-<div class="row mb-3">  <!-- 可以把间距缩小一点 -->
-
 <!-- Yongju Kim -->
-  <div class="col-md-4 px-2">   <!-- 页面居中 -->
+  <div class="col-md-3 px-2">   <!-- 页面居中 -->
     <div class="card">
       {% include figure.html path="assets/img/group-members/group_YongjuKim.jpg" title="Image 1" class="card-img-top" %}
       <div class="card-body text-center pt-2 pb-2"> <!-- 修改了这一行，将上下padding设为较小的值 -->
@@ -236,7 +231,7 @@ nav_order: 2
         <p class="mb-0" style="color: #0077be; font-weight: bold; font-size: 16px;">Yongju Kim</p>
         <p class="mb-0" style="font-size: 14px;">Research Assistant</p>
         <p class="mb-0" style="font-size: 14px;">Fall 2023 - present</p>
-        <p class="mb-0" style="font-size: 14px;">Email: <a href="yongju.kim@wisc.edu">yongju.kim@wisc.edu</a></p> 
+        <p class="mb-0" style="font-size: 14px;">Email: <a href="mailto:yongju.kim@wisc.edu">yongju.kim@wisc.edu</a></p> 
         <p class="mb-0" style="font-size: 14px;">(Co-advise with Prof. Sue Ahn)</p>
         <p class="mb-0" style="font-size: 13px;">M.S., Seoul National University, 2021</p> 
         <p class="mb-0" style="font-size: 13px;">B.S., Seoul National University, 2019</p> 
@@ -251,15 +246,17 @@ nav_order: 2
       </div>
     </div>
   </div>
+
+
 <!-- Yuhao Luo -->
-  <div class="col-md-4 px-2">
+  <div class="col-md-3 px-2">
     <div class="card">
       {% include figure.html path="assets/img/group-members/group_yuhao.jpg" title="Image 1" class="card-img-top" %}
       <div class="card-body text-center pt-2 pb-2">
         <p class="mb-0" style="color: #0077be; font-weight: bold;">Yuhao Luo</p>
         <p class="mb-0" style="font-size: 14px;">Research Assistant</p>
         <p class="mb-0" style="font-size: 14px;">Fall 2025 - present</p>
-        <p class="mb-0" style="font-size: 13px;">Email: <a href="yluo955@connect.hkust-gz.edu.cn">yluo955@connect.hkust-gz.edu.cn</a></p>
+        <p class="mb-0" style="font-size: 13px;">Email: <a href="mailto:yuhao.luo@wisc.edu">yuhao.luo@wisc.edu</a></p>
         <p class="mb-0" style="font-size: 13px;">M.S., The Hong Kong University of Science and Technology (GZ), 2025</p>
         <p class="mb-0" style="font-size: 13px;">B.E., Wuhan University of Technology, 2023</p>
         <br>
@@ -281,7 +278,7 @@ nav_order: 2
   </div>
 
 <!-- Zhengyang Wan -->
-  <div class="col-md-4 px-2">
+  <div class="col-md-3 px-2">
     <div class="card">
       <figure>
         <div style="width: 100%; padding-top: 100%; position: relative; overflow: hidden;">
@@ -292,7 +289,7 @@ nav_order: 2
         <p class="mb-0" style="color: #0077be; font-weight: bold;">Zhengyang Wan</p>
         <p class="mb-0" style="font-size: 14px;">Research Assistant</p>
         <p class="mb-0" style="font-size: 14px;">Fall 2025 - present</p>
-        <p class="mb-0" style="font-size: 14px;">Email: <a href="2233474@tongji.edu.cn">2233474@tongji.edu.cn</a></p>
+        <p class="mb-0" style="font-size: 14px;">Email: <a href="mailto:zhengyang.wan@wisc.edu">zhengyang.wan@wisc.edu</a></p>
         <p class="mb-0" style="font-size: 14px;">M.S., Tongji University, 2025</p>
         <p class="mb-0" style="font-size: 14px;">B.E., Tongji University, 2022</p>
         <br>
@@ -307,22 +304,15 @@ nav_order: 2
     </div>
   </div>
 
-
-</div>
-
-
-
-<div class="row mb-3">
-
  <!-- Boyue Wang -->
-  <div class="col-md-4 px-2">
+  <div class="col-md-3 px-2">
     <div class="card h-100">
       {% include figure.html path="assets/img/group-members/group_boyue.jpg" title="Image 1" class="card-img-top" %}
       <div class="card-body text-center pt-2 pb-2">
         <p class="mb-0" style="color: #0077be; font-weight: bold; font-size: 16px;">Boyue Wang</p>
         <p class="mb-0" style="font-size: 14px;">Research Assistant</p>
         <p class="mb-0" style="font-size: 14px;">Fall 2025 - present</p>
-        <p class="mb-0" style="font-size: 14px;">Email: <a href="bwang367@wisc.edu">bwang367@wisc.edu</a></p>
+        <p class="mb-0" style="font-size: 14px;">Email: <a href="mailto:bwang367@wisc.edu">bwang367@wisc.edu</a></p>
         <p class="mb-0" style="font-size: 14px;">B.E., Mechanical Engineering, University of Wisconsin-Madison, 2025</p>
         <br>
         <p class="mb-0" style="font-size: 13px;">Research Interests: Autonomous Driving Simulation, Intelligent Transportation</p>
@@ -345,14 +335,14 @@ nav_order: 2
 <div class="row mb-3">
  
  <!-- Xin Yi Chen -->
-  <div class="col-md-4 px-2">
+  <div class="col-md-3 px-2">
     <div class="card h-100">
       {% include figure.html path="assets/img/group-members/group_XinYiChen.jpg" title="Image 1" class="card-img-top" %}
       <div class="card-body text-center pt-2 pb-2">
         <p class="mb-0" style="color: #0077be; font-weight: bold; font-size: 16px;">Xin Yi Chen</p>
         <p class="mb-0" style="font-size: 14px;">Undergraduate Researcher</p>
         <p class="mb-0" style="font-size: 14px;">Spring 2025 - present</p>
-        <p class="mb-0" style="font-size: 14px;">Email: <a href="xychen@wisc.edu">xychen@wisc.edu</a></p>
+        <p class="mb-0" style="font-size: 14px;">Email: <a href="mailto:xychen@wisc.edu">xychen@wisc.edu</a></p>
         <p class="mb-0" style="font-size: 14px;">Civil Engineering / Electrical & Computer Engineering, University of Wisconsin-Madison</p>
         <br>
         <p class="mb-0" style="font-size: 13px;">Research Interests: Human-centered, AI-integrated transportation systems development</p>
@@ -377,7 +367,7 @@ nav_order: 2
 
 <div class="row mb-3">
   <!-- Yansong Qu -->
-  <div class="col-md-4 px-2">
+  <div class="col-md-3 px-2">
     <div class="card h-100">
       {% include figure.html path="assets/img/group-members/group_yansong.jpg" title="Image 1" class="card-img-top" %}
       <div class="card-body text-center pt-2 pb-2">
@@ -385,7 +375,7 @@ nav_order: 2
         <p class="mb-0" style="font-size: 14px;">Teaching Assistant</p>
         <p class="mb-0" style="font-size: 14px;">Fall 2024 - present</p>
         <p class="mb-0" style="font-size: 14px;">Purdue University, co-advised with Prof. Samuel Labi</p>
-        <p class="mb-0" style="font-size: 14px;">Email: <a href="qu120@purdue.edu">qu120@purdue.edu</a></p>
+        <p class="mb-0" style="font-size: 14px;">Email: <a href="mailto:qu120@purdue.edu">qu120@purdue.edu</a></p>
         <p class="mb-0" style="font-size: 14px;">M.S., Beijing University of Technology, 2025</p>
         <p class="mb-0" style="font-size: 14px;">B.E., Dalian Jiaotong University, 2021</p>
         <br>
@@ -401,7 +391,7 @@ nav_order: 2
   </div>
 
   <!-- Jiancong Chen -->
-  <div class="col-md-4 px-2">
+  <div class="col-md-3 px-2">
     <div class="card">
       {% include figure.html path="assets/img/group-members/group_jiancong_chen.jpg" title="Image 1" class="card-img-top" %}
       <div class="card-body text-center pt-2 pb-2">
@@ -409,7 +399,7 @@ nav_order: 2
         <p class="mb-0" style="font-size: 14px;">Research Assistant</p>
         <p class="mb-0" style="font-size: 14px;">Fall 2024 - present</p>
         <p class="mb-0" style="font-size: 14px;">Purdue University, co-advised with Prof. Samuel Labi</p>
-        <p class="mb-0" style="font-size: 14px;">Email: <a href="chen5281@purdue.edu">chen5281@purdue.edu</a></p>
+        <p class="mb-0" style="font-size: 14px;">Email: <a href="mailto:chen5281@purdue.edu">chen5281@purdue.edu</a></p>
         <p class="mb-0" style="font-size: 14px;">M.S., Southeast University, 2025</p>
         <p class="mb-0" style="font-size: 14px;">B.E., Chang'an University, 2021</p>
         <br>
@@ -430,7 +420,7 @@ nav_order: 2
 
 
   <!-- Yixian (Nick) Zhong -->
-  <div class="col-md-4 px-2">
+  <div class="col-md-3 px-2">
     <div class="card">
       <figure>
         <div style="width: 100%; padding-top: 100%; position: relative; overflow: hidden;">
@@ -441,7 +431,7 @@ nav_order: 2
         <p class="mb-0" style="color: #0077be; font-weight: bold;">Yixian (Nick) Zhong</p>
         <p class="mb-0" style="font-size: 14px;">Undergraduate Researcher</p>
         <p class="mb-0" style="font-size: 14px;">Fall 2025 - present</p>
-        <p class="mb-0" style="font-size: 14px;">Email: <a href="nick.zhong@rutgers.edu">nick.zhong@rutgers.edu</a></p>
+        <p class="mb-0" style="font-size: 14px;">Email: <a href="mailto:nick.zhong@rutgers.edu">nick.zhong@rutgers.edu</a></p>
         <br>
         <p class="mb-0" style="font-size: 14px;">Statistics, School of Arts and Sciences</p>
         <p class="mb-0" style="font-size: 14px;">Rutgers University - New Brunswick</p>
@@ -478,7 +468,7 @@ nav_order: 2
 <div class="row mb-3">
   
   <!-- Keke Long -->
-  <div class="col-md-4 px-2">
+  <div class="col-md-3 px-2">
     <div class="card">
       {% include figure.html path="assets/img/group-members/group_keke.jpg" title="Image 1" class="card-img-top" %}
       <div class="card-body text-center pt-2 pb-2"> 
@@ -488,12 +478,12 @@ nav_order: 2
         <p class="mb-0" style="color: #0077be; font-weight: bold;">Keke Long</p>
         <p class="mb-0" style="font-size: 14px;">CEE Ph.D.</p>
         <p class="mb-0" style="font-size: 14px;">Spring 2023 - Fall 2024</p>
-        <p class="mb-0" style="font-size: 14px;">Email: <a href="klong23@wisc.edu">klong23@wisc.edu</a></p> 
+        <p class="mb-0" style="font-size: 14px;">Email: <a href="mailto:klong23@wisc.edu">klong23@wisc.edu</a></p> 
         <p class="mb-0" style="font-size: 14px;">University of Wisconsin-Madison, co-advised with Prof. Xiaopeng Li</p>
         <br>
         <p class="mb-0" style="font-size: 13px;">Current Position: Postdoc, University of Wisconsin-Madison</p>
         <br>
-        <br>
+        <!-- <br> -->
         <div class="d-flex justify-content-center">
           <div class="mx-2">   <!-- 三个图标的话删除这一行代码 -->
             <a href="https://scholar.google.com/citations?user=zcTxZZ8AAAAJ&hl=en"><img src="../assets/img/icon/google-scholar-logo.png" style="object-fit: contain; height: 32px;"/></a>
@@ -507,7 +497,7 @@ nav_order: 2
   </div>
   
   <!-- Jiqian (Frank) Dong -->
-  <div class="col-md-4 px-2">
+  <div class="col-md-3 px-2">
     <div class="card">
       {% include figure.html path="assets/img/group-members/group_frank.jpg" title="Image 1" class="card-img-top" %}
       <div class="card-body text-center pt-2 pb-2">
@@ -515,9 +505,9 @@ nav_order: 2
         <p class="mb-0" style="font-size: 14px;">CEE Ph.D., ECE MS</p>
         <p class="mb-0" style="font-size: 14px;">Fall 2019 - Spring 2024</p>
         <p class="mb-0" style="font-size: 14px;">Purdue University, co-advised with Prof. Samuel Labi</p>
-        <p class="mb-0" style="font-size: 14px;">Email: <a href="dong282@purdue.edu">dong282@purdue.edu</a></p>
+        <p class="mb-0" style="font-size: 14px;">Email: <a href="mailto:dong282@purdue.edu">dong282@purdue.edu</a></p>
         <br>
-        <p class="mb-0" style="font-size: 13px;">Research Interests: AI-based control for CAVs, Machine learning for autonomous driving, Connected infrastructure system</p>
+        <p class="mb-0" style="font-size: 13px;">Research Interests: AI-based control for CAVs, Connected infrastructure system</p>
         <!-- <div style="margin-top: 43px;"></div> -->
         <br>
         <div class="d-flex align-items-center justify-content-center ">
@@ -532,7 +522,7 @@ nav_order: 2
 
 
 <!-- Runjia (Rayne) Du -->
-  <div class="col-md-4 px-2">
+  <div class="col-md-3 px-2">
     <div class="card">
       {% include figure.html path="assets/img/group-members/group_rayne.jpg" title="Image 1" class="card-img-top" %}
       <div class="card-body text-center pt-2 pb-2">
@@ -540,7 +530,7 @@ nav_order: 2
         <p class="mb-0" style="font-size: 14px;">CEE Ph.D.</p>
         <p class="mb-0" style="font-size: 14px;">Fall 2019 - Fall 2023</p>
         <p class="mb-0" style="font-size: 14px;">Purdue University, co-advised with Prof. Samuel Labi</p>
-        <p class="mb-0" style="font-size: 14px;">Email: <a href="du187@purdue.edu">du187@purdue.edu</a></p>
+        <p class="mb-0" style="font-size: 14px;">Email: <a href="mailto:du187@purdue.edu">du187@purdue.edu</a></p>
         <br>
           <p class="mb-0" style="font-size: 13px;">Current Position: Research Engineer, Bot Auto</p>
         <br>
@@ -553,19 +543,10 @@ nav_order: 2
       </div>
     </div>
   </div>
-  
-
-</div>
-
-
-
-
-<div class="row mb-3">
-
 
 <!-- Paul (Young Joun) Ha -->
 
-  <div class="col-md-4 px-2">
+  <div class="col-md-3 px-2">
     <div class="card">
       {% include figure.html path="assets/img/group-members/group_paul.png" title="Image 1" class="card-img-top" %}
       <div class="card-body text-center pt-2 pb-2">
@@ -573,7 +554,7 @@ nav_order: 2
         <p class="mb-0" style="font-size: 14px;">CEE Ph.D.</p>
         <p class="mb-0" style="font-size: 14px;">Fall 2019 - Fall 2023</p>
         <p class="mb-0" style="font-size: 14px;">Purdue University, co-advised with Prof. Samuel Labi</p>
-        <p class="mb-0" style="font-size: 14px;">Email: <a href="ha55@purdue.edu">ha55@purdue.edu</a></p>
+        <p class="mb-0" style="font-size: 14px;">Email: <a href="mailto:ha55@purdue.edu">ha55@purdue.edu</a></p>
         <br>
         <p class="mb-0" style="font-size: 13px;">Current Position: Assistant Research Professor, University of Connecticut - Connecticut Transportation Institute</p>
         <br>
@@ -589,7 +570,7 @@ nav_order: 2
 
 
 <!-- Jiaming Wang -->
- <div class="col-md-4 px-2">
+ <div class="col-md-3 px-2">
   <div class="card">
     {% include figure.html path="assets/img/group-members/group_jiaming.jpg" title="Image 1" class="card-img-top" %}
       <div class="card-body text-center pt-2 pb-2">
@@ -597,7 +578,7 @@ nav_order: 2
         <p class="mb-0" style="font-size: 14px;">ECE MS</p>
         <p class="mb-0" style="font-size: 14px;">Fall 2022 - Spring 2024</p>
         <p class="mb-0" style="font-size: 14px;">Purdue University, co-advised with Prof. Samuel Labi</p>
-        <p class="mb-0" style="font-size: 14px;">Email: <a href="wang4146@purdue.edu">wang4146@purdue.edu</a></p>
+        <p class="mb-0" style="font-size: 14px;">Email: <a href="mailto:wang4146@purdue.edu">wang4146@purdue.edu</a></p>
         <br>
         <p class="mb-0" style="font-size: 13px;">Current Position: Software Engineer, Meituan</p>
         <br>
@@ -612,7 +593,7 @@ nav_order: 2
   </div>
 
 <!-- Suya (Sue) Zong -->
-  <div class="col-md-4 px-2">
+  <div class="col-md-3 px-2">
 <div class="card">
       {% include figure.html path="assets/img/group-members/group_sue.png" title="Image 1" class="card-img-top" %}
       <div class="card-body text-center pt-2 pb-2">
@@ -620,7 +601,7 @@ nav_order: 2
         <p class="mb-0" style="font-size: 14px;">CEE MS</p>
         <p class="mb-0" style="font-size: 14px;">Fall 2020 - Summer 2022</p> 
         <p class="mb-0" style="font-size: 14px;">Purdue University, co-advised with Prof. Samuel Labi</p>
-        <p class="mb-0" style="font-size: 13px;">Email: <a href="shuyazong@microsoft.com">shuyazong@microsoft.com</a></p>
+        <p class="mb-0" style="font-size: 13px;">Email: <a href="mailto:shuyazong@microsoft.com">shuyazong@microsoft.com</a></p>
         <br>
         <p class="mb-0" style="font-size: 13px;">Current Position: Product Manager, Microsoft Software and Technology Center Asia</p>
         <br>
@@ -633,16 +614,8 @@ nav_order: 2
   </div>
 </div>
 
-
-</div>
-
-
-
-<div class="row mb-3">
-
-
 <!-- Yujie Li -->
-  <div class="col-md-4 px-2">
+  <div class="col-md-3 px-2">
     <div class="card">
       {% include figure.html path="assets/img/group-members/group_yujie.jpg" title="Image 1" class="card-img-top" %}
       <div class="card-body text-center pt-2 pb-2">
@@ -650,7 +623,7 @@ nav_order: 2
         <p class="mb-0" style="font-size: 14px;">Research Assistant</p>
         <p class="mb-0" style="font-size: 14px;">Fall 2019 - present</p>
         <p class="mb-0" style="font-size: 14px;">Purdue University, co-advised with Prof. Samuel Labi</p>
-        <p class="mb-0" style="font-size: 14px;">Email: <a href="li2804@purdue.edu">li2804@purdue.edu</a></p>
+        <p class="mb-0" style="font-size: 14px;">Email: <a href="mailto:li2804@purdue.edu">li2804@purdue.edu</a></p>
         <br>
         <p class="mb-0" style="font-size: 13px;">Research Interests: Optimal and AI-based control for CAVs, Human factors in AV technologies</p>
         <br>
@@ -668,7 +641,7 @@ nav_order: 2
 
 
 <!-- Qichao Liu -->
- <div class="col-md-4 px-2">
+ <div class="col-md-3 px-2">
   <div class="card">
     {% include figure.html path="assets/img/group-members/group_qichao.jpg" title="Image 1" class="card-img-top" %}
       <div class="card-body text-center pt-2 pb-2">
@@ -676,7 +649,7 @@ nav_order: 2
         <p class="mb-0" style="font-size: 14px;">Visiting Ph.D. Student</p>
         <p class="mb-0" style="font-size: 14px;">Spring 2024 - Spring 2025</p>
         <p class="mb-0" style="font-size: 14px;">Southeast University</p>
-        <p class="mb-0" style="font-size: 14px;">Email: <a href="qliu426@wisc.edu">qliu426@wisc.edu</a></p>
+        <p class="mb-0" style="font-size: 14px;">Email: <a href="mailto:qliu426@wisc.edu">qliu426@wisc.edu</a></p>
         <br>
         <!-- <div style="margin-top: 20px;"></div> -->
         <p class="mb-0" style="font-size: 13px;">Research Interests: Automated Vehicles, Optimal Control, Optimization, Distributed Control</p>
@@ -688,7 +661,7 @@ nav_order: 2
   </div>
 
 <!-- Penglin Song -->
-  <div class="col-md-4 px-2">
+  <div class="col-md-3 px-2">
     <div class="card">
       {% include figure.html path="assets/img/group-members/group_penglin.jpg" title="Image 1" class="card-img-top" %}
       <div class="card-body text-center pt-2 pb-2">
@@ -696,7 +669,7 @@ nav_order: 2
         <p class="mb-0" style="font-size: 14px;">Visiting Ph.D. Student</p>
         <p class="mb-0" style="font-size: 14px;">Spring 2023 - Summer 2023</p>
         <p class="mb-0" style="font-size: 14px;">The Hong Kong Polytechnic University</p>
-        <p class="mb-0" style="font-size: 12px;">Email: <a href="peng-lin.song@connect.polyu.hk">peng-lin.song@connect.polyu.hk</a></p>
+        <p class="mb-0" style="font-size: 12px;">Email: <a href="mailto:peng-lin.song@connect.polyu.hk">peng-lin.song@connect.polyu.hk</a></p>
         <br>
         <!-- <div style="margin-top: 24px;"></div> -->
         <p class="mb-0" style="font-size: 13px;">Research Interests: Proactive safety, Econometric methods application, Surrogate safety measures</p>
@@ -715,8 +688,8 @@ nav_order: 2
   </div>
 
 <!-- Zhongnan Ye -->
-  <div class="col-md-4 px-2">
-  <br>                           <!-- *****重要，之后更新的时候参考***** 这里空行是指： 可以不用每3个card之后重新起一行，而是直接在这里加个空行即可 -->
+  <div class="col-md-3 px-2">
+  <!-- <br>                           *****重要，之后更新的时候参考***** 这里空行是指： 可以不用每3个card之后重新起一行，而是直接在这里加个空行即可 -->
     <div class="card">
       {% include figure.html path="assets/img/group-members/group_zhongnan.jpg" title="Image 1" class="card-img-top" %}
       <div class="card-body text-center pt-2 pb-2">
@@ -724,7 +697,7 @@ nav_order: 2
         <p class="mb-0" style="font-size: 14px;">Visiting Ph.D. Student</p>
         <p class="mb-0" style="font-size: 14px;">Summer 2022 - Fall 2022</p>
         <p class="mb-0" style="font-size: 14px;">The Hong Kong Polytechnic University</p>
-        <p class="mb-0" style="font-size: 12px;">Email: <a href="zhong-nan.ye@connect.polyu.hk">zhong-nan.ye@connect.polyu.hk</a></p>
+        <p class="mb-0" style="font-size: 12px;">Email: <a href="mailto:zhong-nan.ye@connect.polyu.hk">zhong-nan.ye@connect.polyu.hk</a></p>
         <br>
         <p class="mb-0" style="font-size: 13px;">Research Interests: Path planning, Structural safety engineering, Fire emergency management, Building energy modeling</p>
         <br>

@@ -13,9 +13,36 @@ nav_order: 6
 <br>
 
 ---
-<h2 style="text-align: left;">Year 2023</h2>
+<h2 style="text-align: left;">Year 2025</h2>
 
-<div style="text-align:center; display:flex; flex-wrap:wrap; justify-content:center; align-items:center;">
+<div style="text-align:center; display:flex; flex-wrap:wrap; justify-content:left; align-items:center;">
+
+  <div style="margin: 6px; max-height: 360px;">
+    <div style="width: 288px;">
+      <figure>
+        <img src="../../assets/img/group_activities/2025_Fall_group_dinner (09-26, 2025).jpg" alt="Fall 2025 semester group hangout" style="width: 100%; height: 200px; display: block; margin: 0 auto;">
+        <figcaption style="height: 30px; font-size: 16px; text-align: center; word-wrap: break-word;">Fall 2025 semester group hangout <br> (09/26)</figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <div style="margin: 6px; max-height: 360px;">
+    <div style="width: 288px;">
+      <figure>
+        <img src="../../assets/img/group_activities/2024_AAA (04-09, 2025).jpg" alt="Attending 2025 AAA Safe Mobility Conference" style="width: 100%; height: 200px; display: block; margin: 0 auto;">
+        <figcaption style="height: 30px; font-size: 16px; text-align: center; word-wrap: break-word;">Attending 2025 AAA Safe Mobility Conference (04/09)</figcaption>
+      </figure>
+    </div>
+  </div>
+
+</div>
+
+<br>
+
+---
+<h2 style="text-align: left;">Year 2024</h2>
+
+<div style="text-align:center; display:flex; flex-wrap:wrap; justify-content:left; align-items:center;">
 
   <div style="margin: 6px; max-height:  360px;">
     <div style="width: 288px;">
@@ -25,6 +52,15 @@ nav_order: 6
       </figure>
     </div>
   </div>
+
+</div>
+
+<br>
+
+---
+<h2 style="text-align: left;">Year 2023</h2>
+
+<div style="text-align:center; display:flex; flex-wrap:wrap; justify-content:left; align-items:center;">
 
   <div style="margin: 6px; max-height: 360px;">
     <div style="width: 288px;">
@@ -43,11 +79,6 @@ nav_order: 6
       </figure>
     </div>
   </div>
-
-</div>
-
-<!-- 整体左对齐，修改代码：justify-content:left -->
-<div style="text-align:center; display:flex; flex-wrap:wrap; justify-content:left; align-items:center;">
 
   <div style="margin: 6px; max-height: 360px;">
     <div style="width: 288px;">
@@ -74,9 +105,9 @@ nav_order: 6
 <!-- 2022年 -->
 <h2 style="text-align: left;">Year 2022</h2>
 
-<div style="text-align:center; display:flex; flex-wrap:wrap; justify-content:center; align-items:center;">
+<div style="text-align:center; display:flex; flex-wrap:wrap; justify-content:left; align-items:center;">
   
-  <div style="margin: 6px; display:flex; max-height: 360px; align-items:center;">
+  <div style="margin: 6px; max-height: 360px;">
     <div style="width: 288px;">
       <figure>
         <img src="../../assets/img/group_activities/2022_TOPS Fall Lunch （10-28).jpg" alt="2022_TOPS Fall Lunch" style="width: 100%; height: 200px; display: block; margin: 0 auto;">
@@ -103,10 +134,6 @@ nav_order: 6
     </div>
   </div>
 
-</div>
-
-
-<div style="text-align:center; display:flex; flex-wrap:wrap; justify-content:center; align-items:center;">   
   <div style="margin: 6px; max-height: 360px;">
     <div style="width: 288px;">
       <figure>
@@ -133,8 +160,6 @@ nav_order: 6
       </figure>
     </div>
   </div>
-</div>
-
 
   <div style="margin: 6px; max-height: 360px;">
     <div style="width: 288px;">
@@ -144,6 +169,8 @@ nav_order: 6
       </figure>
     </div>
   </div>
+
+</div>
 
 
 
