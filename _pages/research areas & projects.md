@@ -7,6 +7,24 @@ nav: true
 nav_order: 1
 ---
 
+<style>
+/* Responsive video containers for mobile */
+@media (max-width: 768px) {
+  .video-container {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .video-container > div {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .video-container video {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+</style>
+
 <p style="text-align: left; font-size: 18px;"><strong>The research and open-source platforms developed at Sky-Lab would not be possible without the generous support of our sponsors. <br> We are sincerely grateful for their vital contributions.</strong></p>
 
 <div style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap: 20px; margin: 40px 0;">
@@ -28,7 +46,7 @@ nav_order: 1
 <p style="text-align: left; font-weight: bold; margin-bottom: 5px;">- Autonomous Transportation and Cyber-Physical Systems (CPS) Testbeds</p>
 <p style="text-align: left;">Sky-Lab has an electric connected and autonomous van, a Ford E-Transit retrofitted with a drive-by-wire system, sensors, onboard units, 5G connectivity for remote control and data sharing, and a high-performance computer (e.g., 3 LiDARs, 7 cameras, radars, NETGEAR Nighthawk M6 Pro 5G mobile hotspot, etc.). Sky-Lab also has several sets of portable roadside units and traffic signals, which can be used to form an array of customizable traffic control systems at an intersection or along a corridor. This vehicle and equipment together serve as Cyber-Physical Systems (CPS) testbeds for developing and testing advanced technologies, such as vehicle-to-everything (V2X) and vehicle-to-infrastructure (V2I) communication, sensor fusion, autonomous driving algorithms, AR/VR-enabled digital twin platforms, and foundation AI model deployment. <br> Sky-Lab hosts high-performance Lambda Servers, which feature multiple Nvidia GPUs, including A6000, RTX 4090, and 4080. We are also deeply grateful to Nvidia, which has donated two RTX PRO 6000 Blackwell GPUs and 20,000 GPU hours on A100 clusters to the lab.</p>
 
-<div style="display:flex; flex-wrap:nowrap; justify-content:center; align-items:center; gap: 0; margin: 7px 0;">
+<div style="display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap: 0; margin: 7px 0;">
   <img src="../../assets/img/Research/AV1.png" alt="AV1" style="height: 350px; object-fit: contain;">
   <img src="../../assets/img/Research/AV2.png" alt="AV2" style="height: 350px; object-fit: contain;">
   <!-- <img src="../../assets/img/Research/AV3.jpg" alt="AV3" style="height: 200px; object-fit: contain;"> -->
@@ -36,7 +54,7 @@ nav_order: 1
   <img src="../../assets/img/Research/AV5.jpg" alt="AV5" style="height: 350px; object-fit: contain;">
 </div>
 
-<div style="display:flex; justify-content:center; align-items:flex-start; gap: 7px; margin: 15px 0;">
+<div class="video-container" style="display:flex; justify-content:center; align-items:flex-start; gap: 7px; margin: 15px 0;">
   <div style="text-align: center;">
     <video width="auto" height="370" controls preload="metadata">
       <source src="{{ '/assets/img/Research/run175_360p.mp4' | relative_url }}" type="video/mp4">
@@ -60,7 +78,7 @@ nav_order: 1
 <p style="text-align: left; font-weight: bold; margin-bottom: 5px;">- Remote Vehicle Operations and Cloud-Based AI Deployment</p>
 <p style="text-align: left;">Our team has engineered a complete remote operations (teleoperation) platform for our autonomous van. Leveraging its 5G connectivity, the vehicle can be controlled in real-time for driving, operation, and data collection from any location with an internet connection, such as a conference room or an off-site lab (see video examples below). More importantly, our platform is designed for remote AI model deployment. This enables a powerful hardware-in-the-loop workflow: real-time sensor data is streamed from the vehicle to a local computer or a cloud service like Amazon Web Services (AWS), where AI models can process the data and transmit control commands back to the vehicle for immediate execution. <strong>We welcome collaboration with partners from industry, academia, and public agencies. Please contact us to discuss how our platform can help you remotely develop, deploy, and test your models, or to explore other forms of partnership.</strong></p>
 
-<div style="display:flex; justify-content:center; align-items:flex-start; gap: 7px; margin: 15px 0;">
+<div class="video-container" style="display:flex; justify-content:center; align-items:flex-start; gap: 7px; margin: 15px 0;">
   <div style="text-align: center;">
     <video width="auto" height="370" controls preload="metadata">
       <source src="{{ '/assets/img/Research/sky-remote-driving-1min.mp4' | relative_url }}" type="video/mp4">
@@ -109,7 +127,7 @@ A core component of the Sky-Drive platform is the Sky-Lab, which provides a full
   <!-- <img src="../../assets/img/Research/AV5.jpg" alt="AV5" style="height: 350px; object-fit: contain;"> -->
 </div>
 
-<div style="display:flex; justify-content:center; align-items:flex-start; gap: 7px; margin: 15px 0;">
+<div class="video-container" style="display:flex; justify-content:center; align-items:flex-start; gap: 7px; margin: 15px 0;">
   <div style="text-align: center;">
     <video width="auto" height="370" controls preload="metadata">
       <source src="{{ '/assets/img/Research/full_vr.mp4' | relative_url }}" type="video/mp4">
