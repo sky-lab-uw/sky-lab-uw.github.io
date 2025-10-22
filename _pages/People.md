@@ -14,7 +14,7 @@ nav_order: 2
 <!-- **<center> <font size=6> Lab Director </font> </center>** -->
 
 <div class="row">
-  <div class="col-md-3" style="max-width: 320px;">
+  <div class="col-md-3" style="max-width: 317px;">
     {% include figure.html path="assets/img/chen_sikai.png" title="Image" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-md-8">
@@ -557,7 +557,7 @@ nav_order: 2
         <p class="mb-0" style="font-size: 14px;">Email: <a href="mailto:ha55@purdue.edu">ha55@purdue.edu</a></p>
         <br>
         <p class="mb-0" style="font-size: 13px;">Current Position: Assistant Research Professor, University of Connecticut - Connecticut Transportation Institute</p>
-        <br>
+        <!-- <br> -->
         <div class="d-flex align-items-center justify-content-center">
           <a href="https://scholar.google.com/citations?user=VagNU_AAAAAJ&hl=zh-CN&oi=ao" class="flex-grow-1"><img src="../assets/img/icon/google-scholar-logo.png" style="object-fit: contain; height: 32px;"/></a>
           <a href="https://www.linkedin.com/in/paulha1195/"><img src="../assets/img/icon/LinkedIn-logo.png" style="object-fit: contain; height: 32px;"/></a>

@@ -22,6 +22,15 @@ nav_order: 1
     width: 100% !important;
     height: auto !important;
   }
+  /* Fix sky-drive framework image spacing on mobile */
+  .framework-image-container {
+    margin: 10px 0 !important;
+  }
+  .framework-image-container img {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100% !important;
+  }
 }
 </style>
 
@@ -119,7 +128,7 @@ A core component of the Sky-Drive platform is the Sky-Lab, which provides a full
 
 </p>
 
-<div style="display:flex; flex-wrap:nowrap; justify-content:center; align-items:center; gap: 0; margin: 7px 0;">
+<div class="framework-image-container" style="display:flex; flex-wrap:nowrap; justify-content:center; align-items:center; gap: 0; margin: 7px 0;">
   <img src="../../assets/img/Research/sky-drive_framework.png" alt="AV1" style="height: 700px; object-fit: contain;">
   <!-- <img src="../../assets/img/Research/AV2.png" alt="AV2" style="height: 350px; object-fit: contain;"> -->
   <!-- <img src="../../assets/img/Research/AV3.jpg" alt="AV3" style="height: 200px; object-fit: contain;"> -->
