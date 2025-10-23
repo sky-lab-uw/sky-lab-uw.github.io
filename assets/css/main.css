@@ -585,6 +585,22 @@ footer.sticky-bottom {
   color: var(--global-text-color);
   border-bottom: 1px dashed var(--global-text-color);
 }
+.publications ol.bibliography li .doi {
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+  color: var(--global-text-color-light);
+}
+.publications ol.bibliography li .doi strong {
+  color: var(--global-text-color);
+  font-weight: 600;
+}
+.publications ol.bibliography li .doi a {
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+.publications ol.bibliography li .doi a:hover {
+  text-decoration: underline;
+}
 .publications ol.bibliography li .links a.btn {
   color: var(--global-text-color);
   border: 1px solid var(--global-text-color);
