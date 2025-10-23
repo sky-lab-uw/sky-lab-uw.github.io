@@ -87,6 +87,12 @@
       , {{entry.year}}
       {% endif %}
       </div>
+
+      {% if entry.doi %}
+      <div class="doi">
+        <strong>DOI:</strong> <a href="https://doi.org/{{entry.doi}}" target="_blank">{{entry.doi}}</a>
+      </div>
+      {% endif %}
     {% endif %}
 
     <div class="links">

@@ -61,6 +61,11 @@ nav_order: 1
   <!-- <img src="../../assets/img/Research/AV3.jpg" alt="AV3" style="height: 200px; object-fit: contain;"> -->
   <img src="../../assets/img/Research/AV4.png" alt="AV4" style="height: 350px; object-fit: contain;">
   <img src="../../assets/img/Research/AV5.jpg" alt="AV5" style="height: 350px; object-fit: contain;">
+  <!-- Vertical stack of AV7 and AV8 -->
+  <div style="display:flex; flex-direction:column; gap: 0; height: 350px;">
+    <img src="../../assets/img/Research/AV7.png" alt="AV7" style="height: 175px; object-fit: contain;">
+    <img src="../../assets/img/Research/AV8.png" alt="AV8" style="height: 175px; object-fit: contain;">
+  </div>
 </div>
 
 <div class="video-container" style="display:flex; justify-content:center; align-items:flex-start; gap: 7px; margin: 15px 0;">

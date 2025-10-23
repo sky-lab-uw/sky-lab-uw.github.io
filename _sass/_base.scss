@@ -630,6 +630,26 @@ footer.sticky-bottom {
         }
       }
 
+      .doi {
+        font-size: 0.9rem;
+        margin-top: 0.3rem;
+        color: var(--global-text-color-light);
+
+        strong {
+          color: var(--global-text-color);
+          font-weight: 600;
+        }
+
+        a {
+          color: var(--global-theme-color);
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+
       .links {
         a.btn {
           color: var(--global-text-color);
